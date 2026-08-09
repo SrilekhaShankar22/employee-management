@@ -20,9 +20,13 @@ spring:
 server:
   port: 8080
 
+#jwt:
+#  secret: 1234567890123456789012345678901234567890123456789012345678901234
+#  expiration: 86400000 #24 hours
+
 jwt:
-  secret: 1234567890123456789012345678901234567890123456789012345678901234
-  expiration: 86400000 #24 hours
+  secret: ${JWT_SECRET}
+  expiration: ${JWT_EXPIRATION:86400000}
 
 logging:
   level:

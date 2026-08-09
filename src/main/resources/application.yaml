@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: employee-management
+
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/employee_db}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:root}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+#    removing this because Hibernate 6 detects the dialect automatically, and your Docker logs already showed this warning:
+#    database-platform: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8080
+
+jwt:
+  secret: 1234567890123456789012345678901234567890123456789012345678901234
+  expiration: 86400000 #24 hours
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+    com:
+      emsee:
+        employeemanagement: DEBUG

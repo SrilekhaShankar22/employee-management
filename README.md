@@ -393,23 +393,7 @@ Git Push / Pull Request
 - Run unit and integration tests
 - Package the application
 
-![GitHub Actions CI](images/github-actions.png)
-
----
-
-# Screenshots
-
-## Swagger UI
-
-![Swagger UI](images/Swagger1.png)
-
-## Swagger API Response
-
-![Swagger Response](images/Swagger2.png)
-
-## Docker Containers
-
-![Docker Containers](images/Docker_Employee.png)
+![GitHub Actions CI](image/github-actions.png)
 
 ---
 

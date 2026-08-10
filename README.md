@@ -79,9 +79,6 @@ Repository Layer
 MySQL Database
 ```
 
-### Detailed Architecture
-
-![Employee Management Architecture](images/architecture.png)
 
 ### Main Layers
 
@@ -186,11 +183,11 @@ After starting the application, open:
 
 ### Swagger UI
 
-![Swagger UI](images/Swagger1.png)
+![Swagger UI](image/Swagger1.png)
 
 ### Swagger API Response
 
-![Swagger API Response](images/Swagger2.png)
+![Swagger API Response](image/Swagger2.png)
 
 ---
 

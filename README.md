@@ -213,7 +213,7 @@ The application can be run using Docker and Docker Compose.
 
 ### Docker Containers
 
-![Docker Containers](images/Docker_Employee.png)
+![Docker Containers](image/Docker_Employee.png)
 
 ---
 

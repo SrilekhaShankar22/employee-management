@@ -393,8 +393,6 @@ Git Push / Pull Request
 - Run unit and integration tests
 - Package the application
 
-![GitHub Actions CI](image/github-actions.png)
-
 ---
 
 # Project Structure
